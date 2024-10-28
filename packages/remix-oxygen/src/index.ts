@@ -9,6 +9,7 @@ export {createRequestHandler, getStorefrontHeaders} from './server';
 
 export {
   createSession,
+  data,
   defer,
   isCookie,
   isSession,
@@ -30,6 +31,7 @@ export type {
   DataFunctionArgs,
   EntryContext,
   ErrorResponse,
+  Future,
   HandleDataRequestFunction,
   HandleDocumentRequestFunction,
   HeadersArgs,
